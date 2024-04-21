@@ -17,6 +17,7 @@ export const defaultOptions = {
 };
 
 export default function BubbleElement(props) {
+  console.log(props)
   if (!props.children) {
     return null;
   }
